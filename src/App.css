@@ -1,43 +1,42 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: sans-serif;
 }
 
-.header{
+.header {
   background-color: #4dc4fc;
   color: #fff;
   text-shadow: 0 0 10px black;
   padding: 1rem;
   text-align: center;
 }
-.create_task{
+.create_task {
   padding: 1rem;
   text-align: center;
 }
 
-.create_task h2 span{
-border: 1px solid black;
-padding: 0.2rem 0.6rem;
-cursor: pointer;
-margin-left: 2rem;
+.create_task h2 span {
+  border: 1px solid black;
+  padding: 0.2rem 0.6rem;
+  cursor: pointer;
+  margin-left: 2rem;
 }
-.container{
+.container {
   height: calc(100vh - 130px);
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.btns{
+.btns {
   display: flex;
   gap: 1rem;
 }
-.btns button{
-  width: 8rem
-
+.btns button {
+  width: 8rem;
 }
-.modal{
+.modal {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   display: flex;
   flex-direction: column;
